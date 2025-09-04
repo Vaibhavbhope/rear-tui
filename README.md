@@ -3,7 +3,8 @@
 
 # rear-tui
 
-A menu-driven Text User Interface (TUI) for configuring and managing ReaR (Relax-and-Recover) disaster recovery RHEL systems.
+A menu-driven Text User Interface (TUI) for configuring and managing ReaR (Relax-and-Recover) disaster recovery on RHEL and compatible systems.
+This script provides a guided menu for setting up OUTPUT, BACKUP, and related ReaR configuration parameters, stored in /etc/rear/rear-tui.conf.
 
 ## Overview
 
@@ -44,4 +45,14 @@ cd rear-tui
 chmod +x rear-tui.sh
 ```
 
+⚠️ Important Note
 
+Using the ReaR TUI helps simplify configuration, but **it does not guarantee that your
+backup or recovery will succeed**.  
+
+- Always verify that backups are being created correctly.  
+- Perform regular restore tests in a safe environment.  
+- Ensure storage, network paths, and boot media are available and tested.  
+
+ReaR TUI is only a helper for configuration — the responsibility for testing
+and validating disaster recovery remains with the system administrator.
