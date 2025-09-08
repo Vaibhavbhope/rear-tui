@@ -1,6 +1,3 @@
-## Authors
-- Vaibhav Bhope
-
 # rear-tui
 
 A menu-driven Text User Interface (TUI) for configuring and managing ReaR (Relax-and-Recover) disaster recovery on RHEL and compatible systems.
